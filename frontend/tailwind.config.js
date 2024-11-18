@@ -6,7 +6,11 @@ export default {
     "./src/**/*.{html,js,jsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        'logo': '32px',
+      }
+    },
   },
   plugins: [],
 }
